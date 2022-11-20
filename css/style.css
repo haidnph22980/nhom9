@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0, 7vw;
+}
+
+.boxcenter {
+    width: 60%;
+    margin: 0 auto;
+}
+.banner {
+    min-height: 300px;
+    text-align: center;
+}
+.banner img {
+    height: 300px;
+    width: 500px;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mr {
+    margin-right: 2%;
+}
+
+.demo {
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+
+.header {
+    background-color: aquamarine;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: aquamarine;
+    border: 1px solid black;
+    font-size: 0.8vw;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 20px;
+    font-size: 1, 2vw;
+}
+
+.menu {
+    background-color: black;
+    color: pink;
+    border-radius: 5px;
+}
+
+.trai {
+    float: left;
+    width: 74%;
+}
+
+.phai {
+    float: left;
+    width: 24%;
+}
+
+.boxtile {
+    color: #333;
+    padding: 10px;
+    background-color: #EEE;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px soild #CCC;
+
+}
+
+.boxcontent {
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+
+
+.boxcontent2 {
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    min-height: 200px;
+    background-color: #EEE;
+}
+
+.boxfooter {
+
+    padding: 10px;
+    background-color: #EEE;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px soild #CCC;
+
+}
+
+.banner {
+    min-height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    height: 255px;
+}
+
+.sanpham {
+    float: left;
+    width: 30%;
+    min-height: 300px;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.sanpham a{
+    text-decoration: none;
+}
+.sanpham .img {
+    min-height: 210px;
+    text-align: center;
+
+}
+
+.img img {
+    height: 150px;
+}
+
+.menu ul {
+    padding: 0px 15px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a {
+    color: #CCC;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    color: white;
+    font-size: 00.8vw;
+}
+
+/* box tài khỏa */
+.taikhoan {
+    line-height: 150%;
+}
+
+.taikhoan input[type="text"],
+.taikhoan input[type="password"],
+.frmcontent input[type="text"]{
+    width: 100%;
+    border: 1px solid #CCC;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.taikhoan input[type="checkbox"] {
+    border-radius: 5px;
+}
+
+.taikhoan input[type="submit"],
+.frmcontent input[type="submit"],
+.frmcontent input[type="reset"],
+.frmcontent input[type="button"] {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: pink;
+    border: 1px solid #CCC;
+}
+
+.taikhoan input[type="submit"]:hover, 
+.frmconten input[type="submit"]:hover,
+.frmcontent input[type="reset"]:hover,
+.frmcontent input[type="button"]:hover{
+    background-color: #CCC;
+}
+
+.taikhoan li a{
+    color: teal;
+    text-decoration: none;
+}
+
+.taikhoan li a:hover{
+    color:deeppink;
+    text-decoration:underline;
+}
+/* menu2*/
+.menu2 ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu2 ul li{
+    padding: 10px 20px;
+    background-color: #EEE;
+    border-bottom: 1px solid #CCC;
+}
+
+.menu2 ul li a{
+    color: #666;
+    text-decoration: none;
+}
+
+.menu2 ul li:hover{
+    background-color: #CCC;
+}
+
+.searbox input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.top10 img{
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #CCC;
+}
+
+.top10 a{
+    color: #666;
+    text-decoration: none;
+}
+
+.top10 a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+/*admin*/
+.headeradmin{
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.headeradmin h1{
+    font-size: 2vw;
+}
+
+.frmtitle{
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.frmcontent{
+    padding: 20px 0px;
+}
+.dsach table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #999;
+}
+.dsach table th:nth-child(1){
+    width: 10%;
+    padding: 20px;
+    background-color: #CCC;
+}
+.dsach table th:nth-child(2){
+    width: 30%;
+    background-color: #CCC;
+}
+.dsach table th:nth-child(3){
+    width: 40%;
+    background-color: #CCC;
+}
+.dsach table th:nth-child(4){
+    width: 20%;
+    background-color: #CCC;
+}
+
+.dsach table td{
+    padding: 10px 20px;
+    border: 1px solid #CCC;
+}
+
